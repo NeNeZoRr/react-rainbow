@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function ColorForm(props) {
-    let [input, setInput] = useState('');
+    let [input, setInput] = useState('Hey, Im typing here!');
 
     const handleSubmit = (e) => {
         e.preventDefault();
